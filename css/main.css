@@ -1,8 +1,13 @@
 h1 {
   font-family: 'ccbiffbamboom', sans-serif;
+  color: #fff;
 }
 footer {
   background-image: url("../images/footer1.png");
   background-repeat: repeat;
   background-size: contain;
+  color: #ffffff;
+}
+footer .blueCar {
+  max-width: 300px;
 }
