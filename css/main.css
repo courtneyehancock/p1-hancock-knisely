@@ -11,6 +11,9 @@ footer {
 footer .blueCar {
   max-width: 300px;
 }
+footer .footerText {
+  padding: 5% 20%;
+}
 /*!
  * animate.css -https://daneden.github.io/animate.css/
  * Version - 3.7.1
