@@ -2,6 +2,10 @@ h1 {
   font-family: 'ccbiffbamboom', sans-serif;
   color: #fff;
 }
+.navbar-brand {
+  font-family: 'ccbiffbamboom', sans-serif;
+  font-size: 1.2em;
+}
 .menu {
   max-width: 70%;
 }
