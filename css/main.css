@@ -1,10 +1,15 @@
-h1 {
-  font-family: 'ccbiffbamboom', sans-serif;
-  color: #fff;
-}
 .navbar-brand {
   font-family: 'ccbiffbamboom', sans-serif;
   font-size: 1.2em;
+}
+.nav-item,
+.nav-link {
+  color: #fff;
+  font-family: 'ccbiffbamboom', sans-serif;
+}
+h1 {
+  font-family: 'ccbiffbamboom', sans-serif;
+  color: #fff;
 }
 /*IMAGE HOVER EFFECTS - FADE*/
 .container2 {
