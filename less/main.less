@@ -8,13 +8,19 @@ src: url("../fonts/KohinoorRegular.otf") format("trutype");
 //Header
 .navbar-brand {
   font-family: @heading-font;
-  font-size: 1.2em;
+  font-size: 2rem;
+  .textShadow();
 }
 
 .nav-item,
 .nav-link {
   color: #fff;
   font-family: @heading-font;
+  .textShadow();
+}
+
+.navbar-brand img {
+  .imgShadow();
 }
 
 //Main

@@ -1,7 +1,167 @@
-@font-face{font-family:"Kohinoor";src:url("../fonts/KohinoorRegular.otf") format("trutype")}.navbar-brand{font-family:'ccbiffbamboom',sans-serif;font-size:1.2em}.nav-item,.nav-link{color:#fff;font-family:'ccbiffbamboom',sans-serif}h1{font-family:'ccbiffbamboom',sans-serif;color:#fff}p{font-family:"Kohinoor",sans-serif}h2{font-family:"Chalkduster",sans-serif;color:#8bbe81;font-size:2em}h4{font-family:"Kohinoor",sans-serif}.container2{position:relative;width:50%}.image2{display:block;width:100%;height:auto}.overlay2{position:absolute;top:0;bottom:0;left:0;right:0;height:100%;width:100%;opacity:0;transition:.6s ease;background-color:#f25b24}.container2:hover .overlay2{opacity:1}.text2{color:#fff;font-size:2em;position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);-ms-transform:translate(-50%, -50%)}.menu{max-width:70%}.about{background-image:url(../images/about.png);background-repeat:no-repeat;background-size:cover;background-position:center;padding-top:5%;padding-bottom:10%}.about-text{font-size:1.3em;color:#fff}.hearts{max-width:200px}.contact{background-image:url("../images/parkingLot.png");background-repeat:no-repeat;background-size:auto;background-position:center}span{color:#2e5839;font-weight:bold}.contact-text{background-color:#8bbe81;opacity:.9;padding:2%}.services{background-image:url("../images/services.jpg");background-repeat:no-repeat;background-size:cover}.lse{max-width:250px}footer{background-image:url("../images/footer1.png");background-repeat:repeat;background-size:contain;color:#fff}footer .blueCar{max-width:300px}footer .footerText{padding-top:10%}footer .icon{min-width:75px;max-width:90px;padding:2%}footer .footer-icons{padding-top:15%}/*!
+.imgShadow {
+  filter: drop-shadow(3.5px 3.5px 1.5px rgba(0, 0, 0, 0.75));
+}
+.textShadow {
+  text-shadow: 2.8px 2.8px 1.5px rgba(0, 0, 0, 0.75);
+}
+@font-face {
+  font-family: "Kohinoor";
+  src: url("../fonts/KohinoorRegular.otf") format("trutype");
+}
+.navbar-brand {
+  font-family: 'ccbiffbamboom', sans-serif;
+  font-size: 2rem;
+  text-shadow: 2.8px 2.8px 1.5px rgba(0, 0, 0, 0.75);
+}
+.nav-item,
+.nav-link {
+  color: #fff;
+  font-family: 'ccbiffbamboom', sans-serif;
+  text-shadow: 2.8px 2.8px 1.5px rgba(0, 0, 0, 0.75);
+}
+.navbar-brand img {
+  filter: drop-shadow(3.5px 3.5px 1.5px rgba(0, 0, 0, 0.75));
+}
+h1 {
+  font-family: 'ccbiffbamboom', sans-serif;
+  color: #fff;
+}
+p {
+  font-family: "Kohinoor", sans-serif;
+}
+h2 {
+  font-family: "Chalkduster", sans-serif;
+  color: #8bbe81;
+  font-size: 2em;
+}
+h4 {
+  font-family: "Kohinoor", sans-serif;
+}
+/*IMAGE HOVER EFFECTS - FADE*/
+.container2 {
+  position: relative;
+  width: 50%;
+}
+.image2 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.overlay2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .6s ease;
+  background-color: #f25b24;
+}
+.container2:hover .overlay2 {
+  opacity: 1;
+}
+.text2 {
+  color: white;
+  font-size: 2em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.menu {
+  max-width: 70%;
+}
+.about {
+  background-image: url(../images/about.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 5%;
+  padding-bottom: 10%;
+}
+.about-text {
+  font-size: 1.3em;
+  color: #fff;
+}
+.hearts {
+  max-width: 200px;
+}
+.contact {
+  background-image: url("../images/parkingLot.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+}
+span {
+  color: #2e5839;
+  font-weight: bold;
+}
+.contact-text {
+  background-color: #8bbe81;
+  opacity: .9;
+  padding: 2%;
+}
+.services {
+  background-image: url("../images/services.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.lse {
+  max-width: 250px;
+}
+footer {
+  background-image: url("../images/footer1.png");
+  background-repeat: repeat;
+  background-size: contain;
+  color: #ffffff;
+}
+footer .blueCar {
+  max-width: 300px;
+}
+footer .footerText {
+  padding-top: 10%;
+}
+footer .icon {
+  min-width: 75px;
+  max-width: 90px;
+  padding: 2%;
+}
+footer .footer-icons {
+  padding-top: 15%;
+}
+/*!
  * animate.css -https://daneden.github.io/animate.css/
  * Version - 3.7.1
  * Licensed under the MIT license - http://opensource.org/licenses/MIT
  *
  * Copyright (c) 2019 Daniel Eden
- */@-webkit-keyframes slideInLeft{from{-webkit-transform:translate3d(-100%, 0, 0);transform:translate3d(-100%, 0, 0);visibility:visible}to{-webkit-transform:translate3d(0, 0, 0);transform:translate3d(0, 0, 0)}}@keyframes slideInLeft{from{-webkit-transform:translate3d(-100%, 0, 0);transform:translate3d(-100%, 0, 0);visibility:visible}to{-webkit-transform:translate3d(0, 0, 0);transform:translate3d(0, 0, 0)}}.slideInLeft{-webkit-animation-name:slideInLeft;animation-name:slideInLeft}
+ */
+@-webkit-keyframes slideInLeft {
+  from {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes slideInLeft {
+  from {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+.slideInLeft {
+  -webkit-animation-name: slideInLeft;
+  animation-name: slideInLeft;
+}
