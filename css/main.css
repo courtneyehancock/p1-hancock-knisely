@@ -56,6 +56,8 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 .about-text {
   font-size: 1.3em;
