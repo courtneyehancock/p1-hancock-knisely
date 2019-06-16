@@ -20,6 +20,10 @@ p {
 }
 h2 {
   font-family: "Chalkduster", sans-serif;
+  color: #8bbe81;
+}
+h4 {
+  font-family: "Kohinoor", sans-serif;
 }
 /*IMAGE HOVER EFFECTS - FADE*/
 .container2 {
@@ -95,6 +99,9 @@ footer .icon {
   max-width: 90px;
   padding: 2%;
 }
+footer .footer-icons {
+  padding-top: 15%;
+}
 /*!
  * animate.css -https://daneden.github.io/animate.css/
  * Version - 3.7.1
@@ -128,25 +135,3 @@ footer .icon {
   -webkit-animation-name: slideInLeft;
   animation-name: slideInLeft;
 }
-/*@media (min-width: 715px) {
-  .footer-ti {
-    display: flex;
-  }
-  .footer-icons {
-    padding-top: 5%;
-  }
-}*/
-@media (min-width: 650px) {
-  .footerAll {
-    display: flex;
-  }
-  .footer-ti {
-    padding-left: 15%;
-  }
-}
-/*@media (min-width: 900px) {
-  .footer-ti {
-    display: flex;
-    justify-content: flex-end;
-  }
-}*/
