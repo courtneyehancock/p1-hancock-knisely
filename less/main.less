@@ -1,5 +1,10 @@
 @import "variables";
 
+@font-face {
+font-family: "Kohinoor";
+src: url("../fonts/KohinoorRegular.otf") format("trutype");
+}
+
 //Header
 .navbar-brand {
   font-family: @heading-font;
@@ -19,7 +24,11 @@ h1 {
 }
 
 p {
-  font-family: @body-font;
+  font-family: "Kohinoor", sans-serif;
+}
+
+h2 {
+  font-family: "Chalkduster", sans-serif;
 }
 
 /*IMAGE HOVER EFFECTS - FADE*/
@@ -74,7 +83,7 @@ p {
   background-size: cover;
   background-position: center;
   padding-top: 5%;
-  padding-bottom: 5%;
+  padding-bottom: 10%;
 }
 
 .about-text {
@@ -84,6 +93,13 @@ p {
 
 .hearts {
   max-width: 200px;
+}
+
+//Services page
+.services {
+  background-image: url("../images/services.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 //Footer
 footer {
@@ -97,16 +113,12 @@ footer {
     max-width: 300px;
   }
   .footerText {
-    padding: 5% 15%;
+    padding-top: 10%;
   }
   .icon {
     min-width: 75px;
     max-width: 90px;
     padding: 2%;
-  }
-  .footer-icons {
-    padding-top: 5%;
-    padding-right: 5%;
   }
 }
 
@@ -148,3 +160,29 @@ footer {
   -webkit-animation-name: slideInLeft;
   animation-name: slideInLeft;
 }
+
+//media queries
+/*@media (min-width: 715px) {
+  .footer-ti {
+    display: flex;
+  }
+  .footer-icons {
+    padding-top: 5%;
+  }
+}*/
+
+@media (min-width: 650px) {
+  .footerAll {
+    display: flex;
+  }
+  .footer-ti {
+    padding-left: 15%;
+  }
+}
+
+/*@media (min-width: 900px) {
+  .footer-ti {
+    display: flex;
+    justify-content: flex-end;
+  }
+}*/
