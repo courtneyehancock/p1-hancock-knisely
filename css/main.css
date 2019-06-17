@@ -10,13 +10,14 @@
 }
 .navbar-brand {
   font-family: 'ccbiffbamboom', sans-serif;
-  font-size: 2rem;
+  font-size: 3rem;
   text-shadow: 2.8px 2.8px 1.5px rgba(0, 0, 0, 0.75);
 }
 .nav-item,
 .nav-link {
   color: #fff;
   font-family: 'ccbiffbamboom', sans-serif;
+  font-size: 1.2rem;
   text-shadow: 2.8px 2.8px 1.5px rgba(0, 0, 0, 0.75);
 }
 .navbar-brand img {
@@ -126,6 +127,7 @@ footer {
 footer .blueCar {
   max-width: 300px;
   filter: drop-shadow(3.5px 3.5px 1.5px rgba(0, 0, 0, 0.75));
+  padding-top: 5%;
 }
 footer .footerText {
   padding-top: 10%;
@@ -142,6 +144,9 @@ footer .footer-icons {
 footer h1,
 footer h4 {
   text-shadow: 2.8px 2.8px 1.5px rgba(0, 0, 0, 0.75);
+}
+footer h1 {
+  font-size: 3.5rem;
 }
 /*!
  * animate.css -https://daneden.github.io/animate.css/
