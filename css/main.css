@@ -117,9 +117,13 @@ footer {
   background-repeat: repeat;
   background-size: contain;
   color: #ffffff;
+  position: relative;
+  z-index: 1000000000;
+  box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.75);
 }
 footer .blueCar {
   max-width: 300px;
+  filter: drop-shadow(3.5px 3.5px 1.5px rgba(0, 0, 0, 0.75));
 }
 footer .footerText {
   padding-top: 10%;
@@ -131,6 +135,11 @@ footer .icon {
 }
 footer .footer-icons {
   padding-top: 15%;
+  filter: drop-shadow(3.5px 3.5px 1.5px rgba(0, 0, 0, 0.75));
+}
+footer h1,
+footer h4 {
+  text-shadow: 2.8px 2.8px 1.5px rgba(0, 0, 0, 0.75);
 }
 /*!
  * animate.css -https://daneden.github.io/animate.css/

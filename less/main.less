@@ -144,8 +144,12 @@ footer {
   //display: flex;
   //flex-direction: row-reverse;
   color: #ffffff;
+  position: relative;
+  z-index: 1000000000;
+  box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.75);
   .blueCar {
     max-width: 300px;
+    .imgShadow();
   }
   .footerText {
     padding-top: 10%;
@@ -157,7 +161,12 @@ footer {
   }
   .footer-icons {
     padding-top: 15%;
+    .imgShadow();
   }
+
+  h1,h4{
+    .textShadow();
+  };
 }
 
 /*!
