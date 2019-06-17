@@ -21,6 +21,7 @@ p {
 h2 {
   font-family: "Chalkduster", sans-serif;
   color: #8bbe81;
+  font-size: 2em;
 }
 h4 {
   font-family: "Kohinoor", sans-serif;
@@ -77,10 +78,20 @@ h4 {
 .hearts {
   max-width: 200px;
 }
+.contact {
+  background-color: #2e5839;
+}
+span {
+  color: #56bcb6;
+  font-weight: bold;
+}
 .services {
   background-image: url("../images/services.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+.lse {
+  max-width: 250px;
 }
 footer {
   background-image: url("../images/footer1.png");
