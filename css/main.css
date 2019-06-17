@@ -88,6 +88,7 @@ h4 {
 }
 .hearts {
   max-width: 200px;
+  filter: drop-shadow(3.5px 3.5px 1.5px rgba(0, 0, 0, 0.75));
 }
 .contact {
   background-image: url("../images/parkingLot.png");
@@ -111,6 +112,7 @@ span {
 }
 .lse {
   max-width: 250px;
+  filter: drop-shadow(3.5px 3.5px 1.5px rgba(0, 0, 0, 0.75));
 }
 footer {
   background-image: url("../images/footer1.png");
