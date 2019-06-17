@@ -79,11 +79,19 @@ h4 {
   max-width: 200px;
 }
 .contact {
-  background-color: #2e5839;
+  background-image: url("../images/parkingLot.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
 }
 span {
-  color: #56bcb6;
+  color: #2e5839;
   font-weight: bold;
+}
+.contact-text {
+  background-color: #8bbe81;
+  opacity: .9;
+  padding: 2%;
 }
 .services {
   background-image: url("../images/services.jpg");
